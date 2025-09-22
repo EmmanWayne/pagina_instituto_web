@@ -1,0 +1,112 @@
+/* General */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #003366;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  width: 40px;
+  margin-right: 10px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  margin: 0 10px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  background: url("https://via.placeholder.com/1200x400") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* Secciones */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+/* Galería */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Video */
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+.video-container iframe {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Formulario */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+form input, form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background: #003366;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background: #00509e;
+}
+
+/* Footer */
+footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
