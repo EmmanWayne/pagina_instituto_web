@@ -21,7 +21,7 @@ header .logo {
   align-items: center;
 }
 header .logo img {
-  width: 40px;
+  width: 100px;
   margin-right: 10px;
 }
 header nav ul {
@@ -41,7 +41,8 @@ header nav ul li a {
 
 /* Hero */
 .hero {
-  background: url("https://via.placeholder.com/1200x400") no-repeat center center/cover;
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20210709/pngtree-abstract-backgrouns-set-grunge-texture-minimalistic-art-brush-strokes-style-design-image_739359.jpg")
+    no-repeat center center/cover;
   color: white;
   text-align: center;
   padding: 80px 20px;
@@ -57,6 +58,11 @@ h2 {
   color: #003366;
 }
 
+p {
+  margin-bottom: 20px;
+  color: #003366;
+}
+
 /* Galería */
 .gallery {
   display: grid;
@@ -64,6 +70,17 @@ h2 {
   gap: 15px;
 }
 .gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Galería */
+.gallery2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 15px;
+}
+.gallery2 img {
   width: 100%;
   border-radius: 10px;
 }
@@ -85,7 +102,8 @@ form {
   display: flex;
   flex-direction: column;
 }
-form input, form textarea {
+form input,
+form textarea {
   margin: 10px 0;
   padding: 10px;
   border: 1px solid #ccc;
